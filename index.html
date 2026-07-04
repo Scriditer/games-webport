@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Webport - Game Collection</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .subtitle {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .game-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .game-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+        }
+
+        .game-card-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            color: white;
+        }
+
+        .game-card-title {
+            font-size: 1.3em;
+            font-weight: 600;
+            text-transform: capitalize;
+            word-break: break-word;
+        }
+
+        .game-card-body {
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .game-card-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .game-card-link:hover {
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+            transform: scale(1.05);
+        }
+
+        .footer {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.8);
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Games Webport</h1>
+        <p class="subtitle">A collection of games available to play online</p>
+        
+        <div class="games-grid">
+            <a href="amanda-the-adventurer/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Amanda The Adventurer</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="amanda-the-adventurer/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="andys-apple-farm/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Andy's Apple Farm</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="andys-apple-farm/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="baldi-plus/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Baldi Plus</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="baldi-plus/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="baldi-remaster/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Baldi Remaster</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="baldi-remaster/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="bendy/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Bendy</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="bendy/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="bergentruck/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Bergen Truck</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="bergentruck/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="bloodmoney/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Blood Money</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="bloodmoney/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="buckshot-roulette/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Buckshot Roulette</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="buckshot-roulette/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="class-of-09/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Class Of 09</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="class-of-09/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="cuphead/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Cuphead</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="cuphead/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="dead-plate/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Dead Plate</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="dead-plate/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="deadseat/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Dead Seat</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="deadseat/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="deltatraveler/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Delta Traveler</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="deltatraveler/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="donottakethiscathome/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Do Not Take This Cat Home</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="donottakethiscathome/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="fears-to-fathom/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Fears To Fathom</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="fears-to-fathom/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="getting-over-it/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Getting Over It</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="getting-over-it/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="happy-sheepies/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Happy Sheepies</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="happy-sheepies/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="hotline-miami/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Hotline Miami</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="hotline-miami/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="human-expenditure-program/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Human Expenditure Program</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="human-expenditure-program/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="jelly-drift/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Jelly Drift</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="jelly-drift/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="karlson/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Karlson</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="karlson/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="kindergarten/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Kindergarten</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="kindergarten/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="lacysflashgames/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Lacy's Flash Games</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="lacysflashgames/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="milkman-karlson/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Milkman Karlson</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="milkman-karlson/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="minesweeperplus/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Minesweeper Plus</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="minesweeperplus/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="omori-fixed/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Omori Fixed</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="omori-fixed/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="people-playground/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">People Playground</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="people-playground/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="pizza-tower/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Pizza Tower</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="pizza-tower/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="raft/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Raft</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="raft/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="schoolboy-runaway/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Schoolboy Runaway</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="schoolboy-runaway/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="slender/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Slender</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="slender/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="sonic.exe/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Sonic.exe</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="sonic.exe/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="speed-stars/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Speed Stars</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="speed-stars/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="tattletail/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Tattletail</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="tattletail/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="thats-not-my-neighbor/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">That's Not My Neighbor</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="thats-not-my-neighbor/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="the-man-in-the-window/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">The Man In The Window</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="the-man-in-the-window/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="ultrakill/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Ultrakill</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="ultrakill/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="undertale-yellow/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Undertale Yellow</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="undertale-yellow/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="web-fishing/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Web Fishing</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="web-fishing/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="witch-heart/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Witch Heart</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="witch-heart/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="yandere-simulator/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Yandere Simulator</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="yandere-simulator/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+
+            <a href="yume-nikki/index.html" class="game-card">
+                <div class="game-card-header">
+                    <div class="game-card-title">Yume Nikki</div>
+                </div>
+                <div class="game-card-body">
+                    <a href="yume-nikki/index.html" class="game-card-link">Play</a>
+                </div>
+            </a>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 Games Webport - A collection of web-ported games</p>
+        </div>
+    </div>
+</body>
+</html>
